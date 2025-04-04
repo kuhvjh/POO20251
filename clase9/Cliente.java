@@ -1,4 +1,4 @@
-publicc class Cliente {
+public class Cliente {
 
     //atributos
     private String cedula;
@@ -6,6 +6,6 @@ publicc class Cliente {
 
 
     //metodos 
-    
+
 
 }
