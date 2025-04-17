@@ -17,5 +17,6 @@ public class Camara extends Producto {
     }
     public String getmodelo(){
         return modelo;
+        
     }
 }
