@@ -1,0 +1,6 @@
+
+---
+
+### 🧹 `.gitignore` (opcional)
+```gitignore
+*.class
