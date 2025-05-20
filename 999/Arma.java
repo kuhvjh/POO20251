@@ -1,17 +1,17 @@
 public class Arma {
     private String nombre;
-    private int bonusDano;
+    private int danio;
 
-    public Arma(String nombre, int bonusDano) {
+    public Arma(String nombre, int danio) {
         this.nombre = nombre;
-        this.bonusDano = bonusDano;
-    }
-
-    public int getBonusDano() {
-        return bonusDano;
+        this.danio = danio;
     }
 
     public String getNombre() {
         return nombre;
+    }
+
+    public int getDanio() {
+        return danio;
     }
 }
