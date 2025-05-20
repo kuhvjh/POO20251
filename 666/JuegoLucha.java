@@ -38,6 +38,11 @@ class Personaje {
     public int getPuntosDeVida() {
         return this.puntosDeVida;
     }
+
+    public int getBonusDano() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBonusDano'");
+    }
 }
 
 // Subclase Guerrero

@@ -8,25 +8,6 @@ public class JuegoLucha {
         this.jugador1 = jugador1;
         this.jugador2 = jugador2;
     }
-    
-    // Clase Arma agregada para solucionar el error "Arma cannot be resolved to a type"
-    static class Arma {
-        private String nombre;
-        private int danio;
-    
-        public Arma(String nombre, int danio) {
-            this.nombre = nombre;
-            this.danio = danio;
-        }
-    
-        public String getNombre() {
-            return nombre;
-        }
-    
-        public int getDanio() {
-            return danio;
-        }
-    }
 
     public void iniciarPelea() {
         System.out.println("🛡️ La pelea comienza entre " + jugador1.getNombre() + " y " + jugador2.getNombre() + "...");
@@ -92,4 +73,3 @@ public class JuegoLucha {
         juego.iniciarPelea();
     }
 }
-
